@@ -207,3 +207,101 @@ footer * {
     font-weight: 600;
     color: #333;
 }
+@media (max-width: 768px) {
+
+    .category,
+    .categoryf {
+        width: 95%;
+    }
+
+    .categ,
+    .categf {
+        padding: 20px;
+    }
+
+    .categf {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .videoRow {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .shortVid {
+        width: 100%;
+        height: 500px;
+        margin-right: 0;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .sub {
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+    }
+
+    .categoryTitle,
+    .abtmetitle {
+        font-size: 1.8rem;
+    }
+
+    .introduction,
+    .introductionf {
+        font-size: 0.95rem;
+    }
+        section {
+        padding: 25px 0;
+    }
+
+    .spacer {
+        height: 35px;
+    }
+
+    .videoRow {
+        gap: 30px;
+    }
+
+    .categ,
+    .categf {
+        padding: 25px;
+    }
+
+    .skills {
+        gap: 25px;
+    }
+
+    .skill {
+        padding: 25px 15px;
+    }
+
+    .introductionf {
+        margin-bottom: 25px;
+    }
+
+    .categoryTitle {
+        margin-bottom: 20px;
+    }
+
+    iframe,
+    .shortVid {
+        margin-top: 10px;
+    }
+    .spacer {
+    height: 20px;
+}
+}
